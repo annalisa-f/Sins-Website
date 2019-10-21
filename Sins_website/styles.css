@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Caveat+Brush|Caveat:700|Raleway:500,700');
+
+body {
+    background-color: #799394;
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Caveat Brush', cursive;
+    text-align: center;
+    font-size: 3rem;
+    color: #F4F3E1;
+}
+
+h3 {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #F4F3E1;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.5rem;
+    color: #F4F3E1;
+    text-align: center;
+}
+
+#header {
+    background-color: #1E2029;
+    height: 150px;
+    color: white;
+}
+
+#headerimg {
+    max-width: 1024px;
+    background-image: url(header_planet.jpg);
+    height: 150px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
+
+.nav {
+    height: auto;
+    padding-top: 60px;
+    padding-left: 30px;
+    font-size: 1.6rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #F4F3E1;
+}
+
+.nav a:hover {
+    color: #8995A8;
+}
+
+#welcome {
+    padding-top: 20px;
+}
+
+#instructions {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#comic {
+    width: 80%;
+    height: 650px;
+    margin: 50px auto;
+    background-color: #1E2029;
+    
+}
+
+#buttons {
+    width: 80%;
+    height: 50px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 8% 32% 20% 32% 8%;
+    font-size: 1.2rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+#buttons a {
+    text-decoration: none;
+    color: #F4F3E1;
+    margin: auto;
+}
+
+#buttons a:hover {
+    color: #8995A8;
+}
+
+.besmaller {
+    font-size: 0.8rem;
+}
+
+.besmaller2 {
+    font-size: 1rem;
+}
+
+#option1 {
+    grid-column: 2;
+    background-color: #1E2029;
+    padding: 12px;
+    text-align: center;
+}
+
+#option2 {
+    grid-column: 4;
+    background-color: #1E2029;
+    padding-top: 12px;
+    text-align: center;
+}
+
+#footer {
+    height: 60px;
+    width: 100%;
+    background-color: #1E2029;
+    color: #F4F3E1;
+    padding-top: 7px;
+    position: absolute;
+    bottom: 0px;
+}
+
+#footerbox {
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.small {
+    font-size: 0.8rem;
+}
